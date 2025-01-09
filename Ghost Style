@@ -130,7 +130,7 @@ end)
 
 local blacklist = {"Teleport"}
 
-game.ReplicatedStorage.OverworldSpeed.Value = 10
+game.ReplicatedStorage.OverworldSpeed.Value = 1.5
 
 while true do
 	for i,v in pairs(game.ReplicatedStorage.Sounds:GetChildren()) do
